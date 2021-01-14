@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+.content-component{
+  display: inline-block;
+  width: 50%;
+}
+
+.custom-input{
+  width: 50%;
+  height: 50px;
+  font-size: 20px;
+}

@@ -1,0 +1,9 @@
+<div class="content-component" role="main">
+  <h1>Component 1 - Emitter</h1>
+  <h3>Componet Responsible for sending data in component 2</h3>
+  <form [formGroup]="form" autocomplete="on" novalidate>
+    <label for="fild-one">Fild One&nbsp;</label>
+    <input autofocus class="custom-input" type="text" formControlName="fildOne" (ngModelChange)="changeValueSubject(form.value.fildOne)" name="fild-one" required placeholder="Fild One">
+    <p style="display: inline; float: right;"> =====> &nbsp;</p>
+  </form>
+</div>
