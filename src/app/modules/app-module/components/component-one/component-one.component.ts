@@ -12,7 +12,6 @@ export class ComponentOneComponent implements OnInit {
 
   private ngUnsubscribe = new Subject();
   public form: FormGroup;
-  public value: string = "";
 
   constructor(private subjectServiceService:SubjectServiceService) {
     this.initForm();

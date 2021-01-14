@@ -22,4 +22,8 @@ describe('ComponentTwoComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should value defauld be NONE', () => {
+    expect(component.value).toEqual('NONE');
+  });
 });
